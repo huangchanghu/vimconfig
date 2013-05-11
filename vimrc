@@ -1,7 +1,11 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 syntax on
+set sw=4
+set ts=4
+
 filetype indent plugin on
+autocmd FileType python setlocal et sta sw=4 sts=4
 
 set number
 set ruler

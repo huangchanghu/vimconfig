@@ -12,6 +12,14 @@ set ruler
 set fileencodings=ucs-bom,utf-8,gb18030,default,latin1
 set showcmd
 
+"代码折叠
+set foldmethod=syntax
+"默认不折叠
+set foldlevel=99
+
+let mapleader=","
+
+
 " 为方便复制， 用<F2>开启/关闭秸显示
 nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 

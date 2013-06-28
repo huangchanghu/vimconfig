@@ -22,6 +22,8 @@ let mapleader=","
 
 " 为方便复制， 用<F2>开启/关闭秸显示
 nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
+" 打开目录树快捷方式
+nnoremap <F3> :NERDTreeToggle <CR>
 
 set modeline
 

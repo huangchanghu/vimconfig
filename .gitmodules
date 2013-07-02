@@ -13,3 +13,6 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/vim-multiple-coursors"]
+	path = bundle/vim-multiple-coursors
+	url = https://github.com/terryma/vim-multiple-cursors.git
